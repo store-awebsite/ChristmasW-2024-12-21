@@ -22,7 +22,7 @@ title: Christmas W
 email: zeropercent1111@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog cá nhân của người khô khan.
-baseurl: "christmas_w" # the subpath of your site, e.g. /blog
+baseurl: "/ChristmasW-2024-12-21" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Nah
 github_username:  Nah
