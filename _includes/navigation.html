@@ -1,0 +1,15 @@
+<nav>
+  <a class="main-logo" href="/">
+    <img src="/assets/images/main-logo.png" alt="Avatar" class="avatar">
+  </a>
+  <ul>
+    {% for item in site.data.navigation %}
+      <li>
+        <a href="{{ item.link }}" 
+           {% if page.url == item.link %} class="current"{% endif %}>
+          {{ item.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

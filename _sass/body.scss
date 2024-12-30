@@ -1,0 +1,33 @@
+.content-container {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    min-height: 90vh;
+}
+
+.side-split {
+    width: 20%;
+    border-style: dashed;
+    border-width: 5px;
+    background-color: #E38E49;
+}
+
+.main-split {
+    width: 60%;
+    background-color: #F6FCDF;
+    border-bottom: 5px;
+    border-bottom-style: dashed;
+    border-top: 5px;
+    border-top-style: dashed;
+}
+
+.main-paragraph {
+    padding: 2rem;
+}
+
+.content-container .left {
+    
+}
+.content-container .right {
+}
+
